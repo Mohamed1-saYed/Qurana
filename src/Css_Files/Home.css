@@ -306,6 +306,9 @@
         font-size: 9px;
         padding: 12px 0px 12px 5px;
     }
+    .Container_Soar {
+        width: 60%;
+    }
 }
 
 /*(min-width:501px) and (max-width:600px)*/

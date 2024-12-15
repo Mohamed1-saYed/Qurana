@@ -35,8 +35,8 @@ console.log(StateRadio);
     {NameOfRadio}
     {AudioRadio}
     <div className='Arrow_Container'>
-     <button ref={Plus} onClick={()=>SetStateRadio((prev)=>prev-1)}><FontAwesomeIcon icon={faBackward} /></button>
-     <button ref={Prev} onClick={()=>SetStateRadio((prev)=>prev+1)}><FontAwesomeIcon icon={faForward} /></button>
+     <button ref={Prev} onClick={()=>SetStateRadio((prev)=>prev-1)}><FontAwesomeIcon icon={faBackward} /></button>
+     <button ref={Plus} onClick={()=>SetStateRadio((prev)=>prev+1)}><FontAwesomeIcon icon={faForward} /></button>
     </div>
     </div>
     </>

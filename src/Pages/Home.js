@@ -80,10 +80,6 @@ const [Render,SetRender] = useState("")
     }
   },[Render]);
 
-  const options = Soar.map((e) => (
-   <option value={e.number} key={e.number}>{e.name}</option>
-  ))
-
   return (
     <>
     <div ref={ContainerOfSoar} className='Container_Soar'>
@@ -110,12 +106,6 @@ const [Render,SetRender] = useState("")
         <div className='image_container'>
           <img src={header_image} alt="header_image" />
         </div>
-        <form>
-          <select>
-            <option>أختر سورة</option>
-            {options}
-          </select>
-        </form>
       </div>
       <div className='Soar_container'>
         {elements}
