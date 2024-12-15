@@ -1,12 +1,13 @@
-.Login_Signin{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 35px;
-    padding-bottom: 5px;
-}
+ .Login_Signin {
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 35px;
+        padding-bottom: 10px;
+    }
+
 
 .Login_Signin > div{
     background-color: white;

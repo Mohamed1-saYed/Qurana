@@ -13,7 +13,7 @@ export default function PrayersTime() {
   })
 
   useEffect(function(){
-    fetch(`http://api.aladhan.com/v1/timingsByCity/12-12-2024?city=${CitysEgypt||localStorage.getItem("Citys")}&country=EG`)
+    fetch(`https://api.aladhan.com/v1/timingsByCity/12-12-2024?city=${CitysEgypt||localStorage.getItem("Citys")}&country=EG`)
     .then((response)=>response.json())
     .then((Data)=>SetPrayerTime(Data.data.timings))
   },[CitysEgypt])

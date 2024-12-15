@@ -30,7 +30,7 @@ fetch(`https://alquran.vip/APIs/ayah?number=${NumSora}`)
 },[NumSora])
 
   useEffect(() => {
-    fetch("http://api.alquran.cloud/v1/surah")
+    fetch("https://api.alquran.cloud/v1/surah")
       .then((response) => response.json())
       .then((data) => {
         if (Array.isArray(data.data)) {
